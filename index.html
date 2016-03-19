@@ -1,12 +1,20 @@
 ---
 layout: page
-title: Latest Posts
+title: Recent Builds
 excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 search_omit: true
 ---
 
-<ul class="post-list">
-{% for post in site.posts limit:10 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+
+
+<ul>
+{% for s in site.data.ss %}
+  <li>
+      travis build #{{ s.build }} <a href="https://travis-ci.org/oglopss/tomato-shadowsocks"><img src="https://travis-ci.org/oglopss/tomato-shadowsocks.svg" /></a>
+      	{% for f in s.files %}
+      	<br>
+      		<a href="{{ site.url }}/ss/shadowsocks-libev-v{{ f }}.tar.gz"> shadowsocks-libev-v{{ f }}.tar.gz</a>
+      	{% endfor %}
+  </li>
 {% endfor %}
 </ul>
