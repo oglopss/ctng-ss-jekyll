@@ -5,16 +5,12 @@ excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 search_omit: true
 ---
 
-
-
+<br>
+build #{{ site.data.ss.build }} --- {{ site.data.ss.date }} <a href="https://travis-ci.org/oglopss/tomato-shadowsocks"><img src="https://travis-ci.org/oglopss/tomato-shadowsocks.svg" /></a>
 <ul>
-{% for s in site.data.ss %}
-  <li>
-      travis build #{{ s.build }} <a href="https://travis-ci.org/oglopss/tomato-shadowsocks"><img src="https://travis-ci.org/oglopss/tomato-shadowsocks.svg" /></a>
-      	{% for f in s.files %}
-      	<br>
-      		<a href="{{ site.url }}/ss/shadowsocks-libev-v{{ f }}.tar.gz"> shadowsocks-libev-v{{ f }}.tar.gz</a>
-      	{% endfor %}
-  </li>
+{% for f in site.data.ss.files %}
+<li>
+    <a href="{{ site.url }}/ss/shadowsocks-libev-v{{ f }}.tar.gz"> shadowsocks-libev-v{{ f }}.tar.gz</a>
+</li>
 {% endfor %}
 </ul>
