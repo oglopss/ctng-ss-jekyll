@@ -8,7 +8,8 @@ search_omit: true
 <br>
 build #{{ site.data.ss.build }} --- {{ site.data.ss.date }} <a href="https://travis-ci.org/oglopss/tomato-shadowsocks"><img src="https://travis-ci.org/oglopss/tomato-shadowsocks.svg" /></a>
 <ul>
-{% for f in site.data.ss.files %}
+{% assign sorted_ss = site.data.ss.files | sort: | reverse %}
+{% for f in sorted_ss %}
 <li>
     <a href="{{ site.url }}/download/shadowsocks-libev-{{ f }}.tar.gz"> shadowsocks-libev-{{ f }}.tar.gz</a>
 </li>
