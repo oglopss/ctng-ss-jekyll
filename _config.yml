@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: shadowsocks for tomato firmwares
+title: shadowsocks precompiled binary for tomato firmwares
 locale: en_US
 description: travis ci build / K26RT-N kernel 2.6
 logo: kon.png
