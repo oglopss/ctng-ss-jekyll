@@ -2,7 +2,7 @@
 
 title: shadowsocks for tomato firmwares
 locale: en_US
-description: travis ci build
+description: travis ci build / K26RT-N kernel 2.6
 logo: kon.png
 search: true
 url: http://oglopss.github.io/ctng-ss-jekyll/
