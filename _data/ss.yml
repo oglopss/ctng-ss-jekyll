@@ -1,5 +1,5 @@
 build: 85
-date: 25/08/2016 05:09:09 UTC
+date: 25/08/2016 05:09:31 UTC
 files:
   - vsnapshot-7ddcc
   - v2.4.7
@@ -22,3 +22,4 @@ files:
   - v2.1.3
   - v2.1.1
   - v2.1.2
+  - v2.1.0
