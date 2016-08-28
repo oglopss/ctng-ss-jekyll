@@ -69,3 +69,9 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+  
+  
+# Google services
+google_analytics: UA-38506163-4
+
+
