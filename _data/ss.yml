@@ -1,7 +1,4 @@
-build: 143
-date: 16/09/2016 06:18:57 UTC
+build: 144
+date: 16/09/2016 06:23:04 UTC
 files:
-  - vsnapshot-f7f90
-  - v2.5.1
-  - v2.4.8
-  - v2.4.6
+  - v2.5.2
