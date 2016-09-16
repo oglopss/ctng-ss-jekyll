@@ -1,15 +1,16 @@
 <<<<<<< HEAD
 build: 153
-date: 16/09/2016 16:18:05 UTC
+date: 16/09/2016 16:18:24 UTC
 files:
   - v2.0.8
   - v2.0.6
 =======
 build: 127
-date: 16/09/2016 16:18:05 UTC
+date: 16/09/2016 16:18:24 UTC
 files:
   - v1.5.1
   - v1.5.0
 >>>>>>> f3fa3eee77d3175af40cc083832b5dfdcf87618d
   - v2.5.0
   - vsnapshot-f7f90
+  - v2.5.1
