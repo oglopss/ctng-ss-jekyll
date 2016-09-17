@@ -2,4 +2,8 @@ build: 163
 files:
   - v2.4.8
   - v2.5.0
+<<<<<<< HEAD
   - v2.5.1
+=======
+  - vsnapshot-f7f90
+>>>>>>> 7dd96c1026ff888a86836ef3eef579b61205ce9e
