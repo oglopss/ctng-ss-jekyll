@@ -6,7 +6,7 @@ search_omit: true
 ---
 
 <br>
-build #{{ site.data.ss.build }} --- {{ site.data.ss.date }} <a href="https://travis-ci.org/oglopss/tomato-shadowsocks"><img src="https://travis-ci.org/oglopss/tomato-shadowsocks.svg" /></a>
+build #{{ site.data.ss.build }} <a href="https://travis-ci.org/oglopss/tomato-shadowsocks"><img src="https://travis-ci.org/oglopss/tomato-shadowsocks.svg" /></a>
 <ul>
 {% assign sorted_ss = site.data.ss.files | sort: | reverse %}
 {% for f in sorted_ss %}
