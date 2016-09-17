@@ -1,5 +1,5 @@
 build: 159
-date: 17/09/2016 03:31:35 UTC
+date: 17/09/2016 03:32:33 UTC
 files:
   - vsnapshot-f7f90
 <<<<<<< HEAD
@@ -39,3 +39,4 @@ files:
   - v2.0.2
   - v2.0.1
   - v1.6.4
+  - v1.6.2
