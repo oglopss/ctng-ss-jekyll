@@ -1,7 +1,3 @@
-build: 227
+build: 228
 files:
-  - v3.0.1
-  - v2.6.3
   - v2.6.2
-  - vsnapshot-f7f90
-  - v3.0.0
