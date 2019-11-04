@@ -2,3 +2,4 @@ build: 512
 files:
   - v3.3.0
   - vsnapshot-50eb0
+  - v3.3.1
